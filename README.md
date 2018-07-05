@@ -10,7 +10,7 @@
 
    run_analysis.R- the R script that was used to create the data set.
 
-##Goals
+## Goals
 
    Merges the training and the test sets to create one data set.
 
