@@ -4,7 +4,7 @@
 
 ## Repository Contents
 
-   tidy_data_set.csv - contains the tidy data set.
+   tidy_data_set.txt - contains the tidy data set.
 
    CodeBook.pdf - contents of the data set and transformations performed used to generate the tidy data set.
 

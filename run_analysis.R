@@ -81,7 +81,7 @@ analysis_mean <- group_by(analysis,Subject,Activity)
 analysis_mean <- summarise_at(analysis_mean,vars(3:ncol(analysis_mean)),mean)
 
 # write analysis_mean to a file
-write.csv(analysis_mean,"tidy_data_set.csv",sep = "",row.names = FALSE,quote = FALSE,col.names = TRUE)
+write.table(analysis_mean,"tidy_data_set.txt",sep = " ",row.names = FALSE,quote = FALSE,col.names = TRUE)
 
 
 
